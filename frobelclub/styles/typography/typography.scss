@@ -1,0 +1,38 @@
+@use './mixins.scss';
+
+body {
+    @include mixins.font(400);
+}
+  
+p, 
+input, 
+textarea,
+label,
+li {
+    @include mixins.font(400);
+}
+  
+// Heading Hierarchy
+h1 {
+    @include mixins.font(900);
+}
+  
+h2 {
+    @include mixins.font(800);
+}
+  
+h3 {
+    @include mixins.font(700);
+}
+  
+h4 {
+    @include mixins.font(600);
+}
+  
+h5 {
+    @include mixins.font(600);
+}
+  
+h6 {
+    @include mixins.font(600);
+}
